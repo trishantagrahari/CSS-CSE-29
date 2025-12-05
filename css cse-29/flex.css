@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 500px;
+    width: 1000px;
+    background-color: aqua;
+    border: 3px solid black;
+    justify-content: centre;
+    align-content: centre;
+    column-gap: 10px;
+}
+.item{
+    height: 100px;
+    width: 100px;
+
+
+    background-color: brown;
+    border: black;
+    color:blue ;
+    text-align: centre;
+    align-content: centre;
+    flex-grow: 1;
+}
+.item2{
+    order: -1;
+    flex-grow: 2;
+    align-self: flex-end;
+    
+}

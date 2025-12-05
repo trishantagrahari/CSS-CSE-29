@@ -1,0 +1,18 @@
+p{
+    color:red;
+    font-size:20px;
+}
+.jk{
+    color:green;
+}
+#ta1{
+    color:blue;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    text-align: center;
+    align-content: center;
+    padding: 50px;
+}
